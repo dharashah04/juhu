@@ -52,3 +52,10 @@ a, a:hover, a:visited{color: blue;}
    height: 0; 
    clear: both;
 }
+
+@media screen and (max-width: 480px) {
+    .am-col-12 {
+        width: 90%;
+    }
+}
+
