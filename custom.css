@@ -10,6 +10,13 @@
   text-align: justify;
 }
 
+a[href^="tel:"] {
+  color: gray;
+  padding: 0px 3px;
+  border: 1px solid lightgray;
+  text-decoration: none;
+}
+
 .sticky{
     position: fixed;
     top: 0;
